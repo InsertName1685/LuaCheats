@@ -75,7 +75,3 @@ for i,v in pairs(players:GetChildren()) do
         player_added(v)
     end
 end
-
-for i,v in pairs(Tables) do
-memorystats.restore(v)
-end
